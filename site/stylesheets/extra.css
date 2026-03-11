@@ -1,0 +1,33 @@
+/* Override MkDocs Material primary color globally */
+:root > * {
+  --md-primary-fg-color: #ff751f;
+}
+
+/* 1. Make the header taller to fit your big logo */
+.md-header {
+    height: 100px; /* Adjust this if your logo gets cut off */
+}
+
+/* 2. Make the logo image larger */
+.md-header .md-logo img {
+    height: 70px; /* Adjust to match your logo size */
+    width: auto;
+}
+
+/* 3. Hide the default site text so it's just your image */
+.md-header__title {
+    display: none;
+}
+
+/* 4. Turn the navigation tabs bar Salmon orange */
+.md-tabs {
+    background-color: #ff751f !important;
+}
+
+/* 5. Make the nav links bold and black (like your mockup) */
+.md-tabs__link {
+    color: #000000 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
